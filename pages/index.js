@@ -20,7 +20,7 @@ export default function Home() {
         <title>Revestimientos vetex</title>
         <link rel="icon" type="ico" href="favicon.ico"/>
         <meta name="description" content="Revestimientos vetex - revestimiento Plástico Texturado Vetex para interiores o exteriores impermeable. Revestimiento lavable, cubre 12 mts2 por litro y se recomienda dar 2 manos de producto. Su aplicación es con pincel, rodillo o soplete."/>
-        <meta property="og:title" content="Home - Devfree"></meta>
+        <meta property="og:title" content="Revestimientos vetex"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:description" content="Venta de revestimiento Plástico Texturado Vetex para interiores o exteriores impermeable. Revestimiento lavable, cubre 12 mts2 por litro y se recomienda dar 2 manos de producto. Su aplicación es con pincel, rodillo o soplete." />
       </Head>
