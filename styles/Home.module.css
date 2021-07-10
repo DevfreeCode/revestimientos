@@ -1,0 +1,99 @@
+.main_what_do,
+.main_next_projects,
+.bootcamp{
+  width: 100%;
+}
+
+
+.main_what_do,
+.main_next_projects{
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_next_projects{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/** HEADER **/
+
+.title a {
+  background-image: var(--gradient);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.subtitle {
+  margin: 1rem;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.Card{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.Card_picture,
+.Card_text{
+  flex: 1;
+}
+
+.Card_picture img{
+  width: 100%;
+}
+
+.Card_text{
+  padding: 1rem;
+}
+
+.Card_title{
+  display: block;
+  font-size: 1.5rem;
+}
+
+.Card_description{
+  font-weight: 200;
+  display: flex ;
+  margin-bottom: 2rem;
+}
+
+.Card_view{
+  margin-top: 2rem;
+  background-image: var(--gradient);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-font-color);
+  padding: 0.70rem 1rem;
+  margin: 0;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}

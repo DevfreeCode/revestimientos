@@ -1,0 +1,38 @@
+.Navbar {
+    height: 5rem;
+    width: 100%;
+    box-shadow: 13px -3px 20px 3px rgb(234 229 229 / 63%);
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: var(--secondary-font-color);
+}
+
+.Navbar_nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.Navbar_text{
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+.Navbar_nav i {
+    font-size: 2rem;
+}
+
+.Navbar_nav > i{
+    cursor: pointer;
+}

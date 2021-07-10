@@ -1,0 +1,38 @@
+.Services{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Services_info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.Services_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    max-width: 10rem;
+}
+
+.Services_description{
+    font-weight: 200;
+}
+
+.Services_picture{
+    background-color: #ffce00;
+    border-radius: 100%;
+    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services_picture i {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}

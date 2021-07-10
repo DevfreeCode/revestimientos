@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #114f93;
+    --secondary-color: #6f05c1;
+    --gradient: linear-gradient(135deg, var(--primary-color) ,var(--secondary-color));
+    --box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+    
+    --background-color: #000;
+    --bottom-box-shadow : rgba(0,0,0,0.1);
+
+    --secondary-font-color: #fff;
+
+    --max-width:1048px;
+}
